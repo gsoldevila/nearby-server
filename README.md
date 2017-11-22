@@ -7,7 +7,7 @@ Nearby allows creating spontaneous, ephemeral conversation channels, based on us
 - Conversation channels are ephemeral, i.e. when the last user leaves a channel, the channel disappears.
 - When disconnecting from the server (e.g. client application stops running), users will automatically leave their open conversations.
 
-The server component is written in ES6 and relies on [Socket.io](https://socket.io/) for the client - server communication.
+The server component is written in ES6 and relies on [Socket.io](https://socket.io/) for the client - server communication. Channel search and distance calculation is currently based on [geolib](https://www.npmjs.com/package/geolib).
 
 ### Installation
 In order to install and run *Nearby*, please clone this repository and run:
