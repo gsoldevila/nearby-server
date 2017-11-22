@@ -2,6 +2,10 @@
   "name": "nearby-server",
   "version": "0.1.0",
   "description": "The Socket.IO server for Nearby application",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gsoldevila/nearby-server.git"
+  },
   "main": "index.js",
   "scripts": {
     "dev": "pm2 start ecosystem.config.js --update-env --only nearby-server-dev",
