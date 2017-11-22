@@ -19,7 +19,7 @@ $ npm run dev
 
 This will spin-up a `nearby server` instance, allowing to manage it with the [PM2](http://pm2.keymetrics.io/) process manager.
 
-This server will be listening on port `16969` of the host machine. Please refer to [ecosystem.config.js](https://github.com/gsoldevila/nearby-server/blob/master/ecosystem.config.js) if you want to configure it differently.
+This server will be listening on port `16969` of the host machine. Please refer to [ecosystem.config.js](ecosystem.config.js) if you want to configure it differently.
 
 Once the server is running, you can proceed to intall and launch the [nearby client](https://github.com/gsoldevila/nearby-client).
 
