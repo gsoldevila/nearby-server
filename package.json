@@ -1,0 +1,17 @@
+{
+  "name": "nearby-server",
+  "version": "0.1.0",
+  "description": "The Socket.IO server for Nearby application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pm2 start ecosystem.config.js --update-env --only nearby-server-dev",
+    "prod": "pm2 start ecosystem.config.js --update-env --only nearby-server-prod"
+  },
+  "author": "Gerard Soldevila",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "geolib": "^2.0.24",
+    "socket.io": "^2.0.4"
+  }
+}
